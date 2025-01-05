@@ -4,19 +4,13 @@ This repository demonstrates a sentiment analysis pipeline using both classical 
 ## Table of Contents
 Overview
 
-Project Structure
-
 Dataset
 
 Installation & Requirements
 
-Usage
-
 Models
 
 Results
-
-License
 
 Contact
 
@@ -41,50 +35,8 @@ Preprocessing: Tokenization, removal of stopwords, and handling punctuation are 
 You can replace or supplement your own dataset, but ensure you update the file paths and preprocessing steps accordingly.
 
 ## Installation & Requirements
-Clone this repository:
+Download/clone this file.
 
-git clone https://github.com/Anirudhsahu/Sentiment_Analysis_ML_RNN.git
-
-cd Sentiment_Analysis_ML_RNN
-
-## Create and activate a virtual environment (recommended):
-
-python -m venv venv
-
-source venv/bin/activate       # On macOS/Linux
-
-# or:
-
-.\venv\Scripts\activate        # On Windows
-
-Install required libraries:
-
-pip install -r requirements.txt
-
-If requirements.txt is missing, check the top of sentiment_analysis_ml_rnn.ipynb for libraries like:
-
-numpy, pandas, matplotlib, seaborn
-
-scikit-learn
-
-nltk
-
-tensorflow or keras
-
-re (standard library, no install needed)
-
-## Download necessary NLTK data (if the notebook requires stopwords, wordnet, etc.):
-
-import nltk
-nltk.download('stopwords')
-
-nltk.download('punkt')
-
-nltk.download('wordnet')
-
-(You can run these in a Python shell or within the notebook.)
-
-## Usage
 Launch Jupyter Notebook (or any Jupyter-compatible environment, like VS Code):
 
 jupyter notebook
