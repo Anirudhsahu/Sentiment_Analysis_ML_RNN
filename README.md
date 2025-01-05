@@ -58,7 +58,7 @@ RNN Model: LSTM or GRU implementation using Keras/TensorFlow.
 Evaluation: Check accuracy, confusion matrix, precision, recall, F1-score.
 
 ## Models
-# Classical Machine Learning
+### Classical Machine Learning
 Logistic Regression
 
 Naive Bayes
@@ -67,7 +67,7 @@ SVM
 
 Each uses TF-IDF or a similar vectorization technique, then a standard classification algorithm.
 
-# Recurrent Neural Network (RNN)
+### Recurrent Neural Network (RNN)
 Embedding Layer (learned or pre-trained embeddings)
 
 LSTM/GRU Layer for sequence modeling
